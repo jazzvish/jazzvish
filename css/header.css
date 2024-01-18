@@ -1,0 +1,148 @@
+.search{
+  display: block;
+  height: 27px;
+  flex: 1;
+  padding-left: 12px;
+  font-size: 16px;
+  border-width:1px;
+  border-style: solid;
+  border-color: rgb(204, 198, 198);
+  border-radius: 2px;
+  box-shadow: inset 1px 1px px rgba(0,0,0.05);
+  width:0;
+  }
+.search::placeholder{
+  font-family: roboto,arial;
+}
+  .header
+  { margin-bottom: 45px;
+    height:60px;
+  display: flex;
+flex-direction: row;
+justify-content:space-between;
+position: fixed;
+top:0;
+left:0;
+right:0;
+background-color: aliceblue;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: lightgray;
+z-index: 100;
+}
+.left-section{
+ display: flex;
+  align-items: center;
+}
+.hamburger{
+  height: 25px;
+  margin-right: 24px;
+  margin-left: 20px;
+  }
+.utubelogo{
+  height:20px; 
+  vertical-align: top;
+  }
+.middle-section{        
+  flex: 1;
+  max-width: 500px;
+  align-items: center;
+  display:flex;}
+  .search-icon{
+    height: 31px;
+    width: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(204, 198, 198) ;
+    margin-left: -1px;
+    margin-right: 10px;
+    
+ }
+ .search-icon,
+ .mic,
+ .create-container,
+ .notification-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+ .search-icon .tooltip,
+ .mic .tooltip,
+ .create-container .tooltip,
+ .notification-container .tooltip{
+  position: absolute;
+  background-color: grey;
+  font-family: roboto,arial;
+  color:white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -25px;
+  right: 2px;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-icon:hover .tooltip,
+.mic:hover .tooltip,
+.create-container:hover .tooltip,
+.notification-container:hover .tooltip{
+  opacity: 1;
+}
+   .search-icon2{
+    height:20px;
+   }
+   .mic{
+    height: 40px;
+    width: 40px;
+  border-radius:20px;
+  border:none;
+  left: 5px;
+  background-color: rgba{245,245,245};}
+    .mic1{
+      height: 20px;
+      
+    }
+.right-section {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+  
+  }
+  .create{
+    height:28px;
+  }
+  .notification{
+    height:24px;
+  }
+  .notification-container{
+    position: relative;
+  }
+  .notification-count{
+    position: absolute;
+    top: -5px;
+    right:-5px;
+    background-color: rgb(220, 31, 31);
+    color: white;
+    font-family: roboto,arial;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 12px;
+
+  }
+  .my-id{
+    height: 32px;
+    border-radius: 16px;
+  }
